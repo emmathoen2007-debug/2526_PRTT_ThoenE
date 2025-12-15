@@ -1,0 +1,42 @@
+/* Week 5 specific styles - Two columns: text left, blue UI elements right */
+.week-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  margin-bottom: 60px;
+}
+
+.week-text-block {
+  background: #f8f4f0;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+.week-text-block p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  font-family: serif, Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+.week-ui-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ui-element {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .week-layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+

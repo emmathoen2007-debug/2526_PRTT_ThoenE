@@ -1,0 +1,85 @@
+/* Week 7 specific styles - Empty page with just title */
+/* MAIN CONTAINER */
+.week-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}
+
+/* Title */
+.week7-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Layout wrapper */
+.week7-layout {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Text box */
+.week7-textbox {
+  background: #f8f4f0;
+  padding: 24px 28px;
+  max-width: 380px;
+  border-radius: 8px;
+  color: #444;
+  font-size: 15px;
+  line-height: 1.6;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+/* ICON AREA */
+.week7-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Base circle */
+.icon-circle {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 28px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+}
+
+/* PURE CSS Dutch Flag in a Circle */
+.flag-nl {
+  background: 
+    linear-gradient(to bottom,
+      #ae1c28 0%,
+      #ae1c28 33.33%,
+      #ffffff 33.33%,
+      #ffffff 66.66%,
+      #21468b 66.66%,
+      #21468b 100%
+    );
+}
+
+/* NL Code circle */
+.nl-code {
+  background: #000;
+  color: #fff;
+}
+
+/* Arrow between the icons */
+.icon-arrow {
+  font-size: 42px;
+  font-weight: 300;
+  color: #666;
+  margin: 0 10px;
+}
+
+

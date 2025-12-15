@@ -1,0 +1,19 @@
+{
+  "name": "emma-html-site",
+  "version": "1.0.0",
+  "description": "Static HTML website",
+  "scripts": {
+    "build": "echo 'No build needed for a static HTML project'",
+    "start": "echo 'Open your index.html file in the browser to view the site'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "type": "commonjs",
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
+  }
+}

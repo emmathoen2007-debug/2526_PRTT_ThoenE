@@ -1,0 +1,36 @@
+/* Week 3 specific styles - Two columns with image + text */
+.week-content-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content-block img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.content-block p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  font-family: serif, Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .week-content-columns {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+

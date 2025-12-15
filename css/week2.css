@@ -1,0 +1,35 @@
+/* Week 2 specific styles */
+.week-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.week-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.week-description {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.week-description p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  font-family: serif, Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .week-images {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+

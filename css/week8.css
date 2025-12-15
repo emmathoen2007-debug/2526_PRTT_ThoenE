@@ -1,0 +1,8 @@
+/* Week 7 specific styles - Empty page with just title */
+/* MAIN CONTAINER */
+.week-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}

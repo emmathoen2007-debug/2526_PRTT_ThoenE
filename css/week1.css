@@ -1,0 +1,23 @@
+/* Week 1 specific styles */
+.week-text-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.text-column p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  font-family: serif, Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .week-text-columns {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
